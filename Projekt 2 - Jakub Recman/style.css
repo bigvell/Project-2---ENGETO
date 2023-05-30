@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/**************** HEADER *****************/
+header {
+  display: flex;
+  align-items: center;
+  background-color: #15304c;
+  height: 70px;
+}
+.logo {
+  flex-grow: 1;
+}
+.logo img {
+  width: 200px;
+  margin-left: 20px;
+}
+/* NAVIGATION */
+/* vlastní OD */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  font-size: calc(1em + 0.5vw);
+  width: 100%;
+}
+.menu {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  margin: 0;
+  justify-content: end;
+  width: 100%;
+}
+/* vlastní DO */
+
+/* nav {
+  margin-right: 30px;
+}
+nav li {
+  display: inline-block;
+  list-style-type: none;
+  margin-right: 20px;
+} */
+nav li a {
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+}
+.menu-icon {
+  display: none;
+  margin-right: 30px;
+}
+/********************* Welcome section *********************/
+.welcome {
+  background: url("img/background.webp");
+  min-height: calc(100vh - 70px);
+  background-size: cover;
+  background-position: center;
+}
